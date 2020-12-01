@@ -24,7 +24,7 @@ namespace src
             bool loop = true;
             do
             {
-                if (nome.Equals(null) || nome.Length < 5 || nome.StartsWith(' ')
+                if (nome.Equals(null) || nome.Length < 5 || nome.StartsWith(' '))
                 {
                     Console.WriteLine(Environment.NewLine
                         + "O nome do estudante deve ter um formato válido e mais de 5 letras. "
